@@ -190,7 +190,6 @@ body {
     background-size: cover;
     /*Параметры background-size и background-position вынесены в общий модифиактор, т.к. повторяются для всех карточек*/
     background-position: center;
-    position: relative;
 }
 
 .card__item_content {
@@ -289,7 +288,6 @@ body {
     flex-direction: column;
     justify-items: center;
     text-align: center;
-    list-style: none;
 }
 
 .navigation__footer_list {
