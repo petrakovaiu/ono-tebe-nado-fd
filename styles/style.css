@@ -13,13 +13,9 @@ body {
   margin-bottom: auto;
 }
 
-.navigation__list {
-}
-
 .header__navigation__list {
   display: flex;
   list-style: circle;
-  display: flex;
   gap: 32px;
   flex-direction: row;
   text-transform: lowercase;
