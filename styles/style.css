@@ -39,6 +39,7 @@ body {
 }
 
 .contacts__list {
+  font-style: normal;
   list-style: none;
   max-width: 235px;
 }
@@ -80,7 +81,6 @@ body {
   display: flex;
   justify-content: space-between;
   z-index: 1;
-  /* line-height: 115%; */
 }
 
 .typography {
@@ -96,7 +96,6 @@ body {
   font-weight: 700;
   letter-spacing: 30px;
   text-transform: uppercase;
-  /* text-align: right; */
 }
 
 .typography__header__align-start {
@@ -111,7 +110,7 @@ body {
   text-align: right;
 }
 
-.typography__last_leterspacing_0 {
+.typography__last_leterspacing {
   letter-spacing: 0;
 }
 
@@ -180,14 +179,15 @@ body {
 }
 
 .card__item__content {
+  position: relative;
+  z-index: 1;
   height: 100%;
-  z-index: 2;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
 }
 
 .card__header {
+  text-decoration: underline;
   font-size: 22px;
   font-weight: 700;
   text-transform: uppercase;
@@ -195,6 +195,10 @@ body {
 
 .card__text {
   margin-top: auto;
+}
+
+.card__item__styling {
+  text-decoration: none;
 }
 
 .card__item__type_film {
