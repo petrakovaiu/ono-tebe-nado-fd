@@ -110,7 +110,7 @@ body {
   text-align: right;
 }
 
-.typography__last_leterspacing {
+.typography__no_leterspacing {
   letter-spacing: 0;
 }
 
